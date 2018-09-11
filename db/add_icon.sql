@@ -1,0 +1,1 @@
+INSERT INTO icons (className, tags, likes) VALUES ($1, $2, 0);
