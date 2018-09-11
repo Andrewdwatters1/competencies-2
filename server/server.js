@@ -14,7 +14,7 @@ massive(process.env.CONNECTION_STRING).then(db => {
   app.set('db', db)
   console.log('Database is linked!');
 })
-
+//testgins
 app.use(bodyParser.json());
 app.use(session({
   secret: process.env.SESSION_SECRET,
